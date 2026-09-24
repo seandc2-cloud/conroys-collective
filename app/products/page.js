@@ -1,4 +1,4 @@
-https://github.com/seandc2-cloud
+
 export default function ProductsPage() {
   return (
     <main style={{ padding: "40px", fontFamily: "Arial, sans-serif" }}>
