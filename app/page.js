@@ -1,9 +1,6 @@
 export default function Home() {
   return (
     <main>
-    export default function Home() {
-  return (
-    <main>
 
       {/* HERO BANNER */}
       <section style={{
@@ -38,7 +35,6 @@ export default function Home() {
           Shop Now
         </button>
       </section>
-
 
       <header style={{
         width: "100%",
@@ -94,4 +90,3 @@ export default function Home() {
     </main>
   );
 }
-
