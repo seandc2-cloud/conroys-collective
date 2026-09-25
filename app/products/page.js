@@ -6,11 +6,29 @@ export default function Products() {
         Our Products
       </h1>
 
-      <p style={{ fontSize: "18px", lineHeight: "1.6", maxWidth: "800px", margin: "0 auto" }}>
-        Explore our growing collection of wearable tech designed to improve posture,
-        comfort, and daily wellness.
-      </p>
+      <div style={{
+        display: "flex",
+        flexDirection: "column",
+        gap: "30px",
+        maxWidth: "800px",
+        margin: "0 auto"
+      }}>
 
+        {/* PRODUCT 1 */}
+        <div style={{
+          border: "1px solid #ccc",
+          padding: "20px",
+          borderRadius: "8px"
+        }}>
+          <h2 style={{ marginBottom: "10px" }}>Smart Posture Trainer</h2>
+          <p style={{ marginBottom: "10px" }}>
+            A wearable posture device that gently vibrates when you slouch,
+            helping you build better posture habits throughout the day.
+          </p>
+          <p style={{ fontWeight: "bold" }}>$49.99</p>
+        </div>
+
+      </div>
     </main>
   );
 }
