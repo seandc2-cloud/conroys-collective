@@ -67,7 +67,7 @@ export default function Home() {
 
         <img 
           src="/posture-trainer-hero.png"
-          alt="Posture Trainer Product"
+          alt="Smart Posture Trainer Product"
           style={{ width: "300px", height: "auto", borderRadius: "10px" }}
         />
 
@@ -77,6 +77,114 @@ export default function Home() {
 
         <button
           onClick={() => window.location.href = "/checkout?product=Smart%20Posture%20Trainer&price=49.99"}
+          style={{
+            marginTop: "20px",
+            padding: "15px 30px",
+            fontSize: "18px",
+            backgroundColor: "#000",
+            color: "#fff",
+            border: "none",
+            borderRadius: "8px",
+            cursor: "pointer"
+          }}
+        >
+          Buy Now
+        </button>
+      </section>
+
+      {/* PRODUCT 2 */}
+      <section style={{
+        padding: "40px",
+        textAlign: "center"
+      }}>
+        <h2 style={{ fontSize: "28px", marginBottom: "20px" }}>
+          Smart Neck Relaxer
+        </h2>
+
+        <img 
+          src="/neck-relaxer.png"
+          alt="Smart Neck Relaxer Product"
+          style={{ width: "300px", height: "auto", borderRadius: "10px" }}
+        />
+
+        <p style={{ fontSize: "20px", marginTop: "20px" }}>
+          <strong>$59.99</strong>
+        </p>
+
+        <button
+          onClick={() => window.location.href = "/checkout?product=Smart%20Neck%20Relaxer&price=59.99"}
+          style={{
+            marginTop: "20px",
+            padding: "15px 30px",
+            fontSize: "18px",
+            backgroundColor: "#000",
+            color: "#fff",
+            border: "none",
+            borderRadius: "8px",
+            cursor: "pointer"
+          }}
+        >
+          Buy Now
+        </button>
+      </section>
+
+      {/* PRODUCT 3 */}
+      <section style={{
+        padding: "40px",
+        textAlign: "center"
+      }}>
+        <h2 style={{ fontSize: "28px", marginBottom: "20px" }}>
+          Smart Back Stretcher
+        </h2>
+
+        <img 
+          src="/back-stretcher.png"
+          alt="Smart Back Stretcher Product"
+          style={{ width: "300px", height: "auto", borderRadius: "10px" }}
+        />
+
+        <p style={{ fontSize: "20px", marginTop: "20px" }}>
+          <strong>$39.99</strong>
+        </p>
+
+        <button
+          onClick={() => window.location.href = "/checkout?product=Smart%20Back%20Stretcher&price=39.99"}
+          style={{
+            marginTop: "20px",
+            padding: "15px 30px",
+            fontSize: "18px",
+            backgroundColor: "#000",
+            color: "#fff",
+            border: "none",
+            borderRadius: "8px",
+            cursor: "pointer"
+          }}
+        >
+          Buy Now
+        </button>
+      </section>
+
+      {/* PRODUCT 4 */}
+      <section style={{
+        padding: "40px",
+        textAlign: "center"
+      }}>
+        <h2 style={{ fontSize: "28px", marginBottom: "20px" }}>
+          Smart Shoulder Massager
+        </h2>
+
+        <img 
+          src="/shoulder-massager.png"
+          alt="Smart Shoulder Massager Product"
+          style={{ width: "300px", height: "auto", borderRadius: "10px" }}
+        />
+
+        <p style={{ fontSize: "20px", marginTop: "20px" }}>
+          <strong>$79.99</strong>
+        </p>
+
+        <button
+          onClick={() => window.location.href = "/checkout?product=Smart%20Shoulder%20Massager&price=79.99"}
           style={{
             marginTop: "20px",
             padding: "15px 30px",
