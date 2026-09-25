@@ -53,6 +53,19 @@ export default function Products() {
   </p>
   <p style={{ fontWeight: "bold" }}>$69.99</p>
 </div>
+{/* PRODUCT 4 */}
+<div style={{
+  border: "1px solid #ccc",
+  padding: "20px",
+  borderRadius: "8px"
+}}>
+  <h2 style={{ marginBottom: "10px" }}>Smart Shoulder Massager</h2>
+  <p style={{ marginBottom: "10px" }}>
+    A portable shoulder massage device that targets tension, improves mobility,
+    and helps relieve stress from long workdays and poor posture habits.
+  </p>
+  <p style={{ fontWeight: "bold" }}>$79.99</p>
+</div>
 
       </div>
     </main>
