@@ -20,6 +20,12 @@ export default function Products() {
           padding: "20px",
           borderRadius: "8px"
         }}>
+          <img 
+  src="/posture-trainer-hero.png" 
+  alt="Smart Posture Trainer" 
+  style={{ width: "100%", borderRadius: "8px", marginBottom: "15px" }}
+/>
+
           <h2 style={{ marginBottom: "10px" }}>Smart Posture Trainer</h2>
           <p style={{ marginBottom: "10px" }}>
             A wearable posture device that gently vibrates when you slouch,
