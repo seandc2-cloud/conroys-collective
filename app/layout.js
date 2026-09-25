@@ -1,3 +1,5 @@
+import './globals.css';
+
 export const metadata = {
   title: "Conroy’s Collective",
   description: "Wearable tech storefront",
@@ -10,4 +12,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
