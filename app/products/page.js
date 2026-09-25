@@ -77,6 +77,12 @@ export default function Products() {
   padding: "20px",
   borderRadius: "8px"
 }}>
+  <img 
+  src="/posture-trainer-hero.png" 
+  alt="Smart Shoulder Massager" 
+  style={{ width: "100%", borderRadius: "8px", marginBottom: "15px" }}
+/>
+
   <h2 style={{ marginBottom: "10px" }}>Smart Shoulder Massager</h2>
   <p style={{ marginBottom: "10px" }}>
     A portable shoulder massage device that targets tension, improves mobility,
