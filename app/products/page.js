@@ -58,6 +58,12 @@ export default function Products() {
   padding: "20px",
   borderRadius: "8px"
 }}>
+  <img 
+  src="/posture-trainer-hero.png" 
+  alt="Smart Back Support Belt" 
+  style={{ width: "100%", borderRadius: "8px", marginBottom: "15px" }}
+/>
+
   <h2 style={{ marginBottom: "10px" }}>Smart Back Support Belt</h2>
   <p style={{ marginBottom: "10px" }}>
     A lightweight lumbar support belt designed to reduce lower‑back strain,
