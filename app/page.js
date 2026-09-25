@@ -1,9 +1,9 @@
 
 export default function Home() {
   return (
-    <main style={{ padding: "40px", fontSize: "24px" }}>
+    <main style={{ padding: "40px", fontFamily: "Arial, sans-serif" }}>
       <h1>Conroy’s Collective</h1>
-      <p>Your wearable tech storefront is live.</p>
-    </main>.
+      <p>Your wearable tech storefront is live and working.</p>
+    </main>
   );
 }
