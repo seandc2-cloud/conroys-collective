@@ -27,6 +27,19 @@ export default function Products() {
           </p>
           <p style={{ fontWeight: "bold" }}>$49.99</p>
         </div>
+{/* PRODUCT 2 */}
+<div style={{
+  border: "1px solid #ccc",
+  padding: "20px",
+  borderRadius: "8px"
+}}>
+  <h2 style={{ marginBottom: "10px" }}>Smart Neck Relaxer</h2>
+  <p style={{ marginBottom: "10px" }}>
+    A heated neck therapy device that relieves tension, improves circulation,
+    and reduces daily stress from phone posture and long work hours.
+  </p>
+  <p style={{ fontWeight: "bold" }}>$59.99</p>
+</div>
 
       </div>
     </main>
