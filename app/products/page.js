@@ -40,6 +40,19 @@ export default function Products() {
   </p>
   <p style={{ fontWeight: "bold" }}>$59.99</p>
 </div>
+{/* PRODUCT 3 */}
+<div style={{
+  border: "1px solid #ccc",
+  padding: "20px",
+  borderRadius: "8px"
+}}>
+  <h2 style={{ marginBottom: "10px" }}>Smart Back Support Belt</h2>
+  <p style={{ marginBottom: "10px" }}>
+    A lightweight lumbar support belt designed to reduce lower‑back strain,
+    improve posture alignment, and provide comfort during long work sessions.
+  </p>
+  <p style={{ fontWeight: "bold" }}>$69.99</p>
+</div>
 
       </div>
     </main>
