@@ -1,6 +1,44 @@
 export default function Home() {
   return (
     <main>
+    export default function Home() {
+  return (
+    <main>
+
+      {/* HERO BANNER */}
+      <section style={{
+        width: "100%",
+        padding: "60px 20px",
+        backgroundColor: "#000",
+        color: "#fff",
+        textAlign: "center",
+        borderRadius: "8px",
+        marginBottom: "40px"
+      }}>
+        <h1 style={{ fontSize: "40px", marginBottom: "20px" }}>
+          Conroy’s Collective
+        </h1>
+
+        <p style={{ fontSize: "20px", marginBottom: "30px" }}>
+          Smart Wearables for Better Posture, Comfort & Daily Wellness
+        </p>
+
+        <button 
+          onClick={() => window.location.href = "/products"}
+          style={{
+            padding: "15px 30px",
+            fontSize: "18px",
+            backgroundColor: "#fff",
+            color: "#000",
+            border: "none",
+            borderRadius: "6px",
+            cursor: "pointer"
+          }}
+        >
+          Shop Now
+        </button>
+      </section>
+
 
       <header style={{
         width: "100%",
