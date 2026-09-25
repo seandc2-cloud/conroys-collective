@@ -39,6 +39,12 @@ export default function Products() {
   padding: "20px",
   borderRadius: "8px"
 }}>
+  <img 
+  src="/posture-trainer-hero.png" 
+  alt="Smart Neck Relaxer" 
+  style={{ width: "100%", borderRadius: "8px", marginBottom: "15px" }}
+/>
+
   <h2 style={{ marginBottom: "10px" }}>Smart Neck Relaxer</h2>
   <p style={{ marginBottom: "10px" }}>
     A heated neck therapy device that relieves tension, improves circulation,
