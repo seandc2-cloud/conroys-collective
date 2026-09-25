@@ -23,6 +23,20 @@ export default function RootLayout({ children }) {
         </nav>
 
         {children}
+
+        <footer style={{
+          width: "100%",
+          padding: "20px",
+          marginTop: "40px",
+          backgroundColor: "#f5f5f5",
+          borderTop: "1px solid #ddd",
+          textAlign: "center",
+          fontSize: "16px",
+          color: "#555"
+        }}>
+          © {new Date().getFullYear()} Conroy’s Collective — All Rights Reserved
+        </footer>
+
       </body>
     </html>
   );
