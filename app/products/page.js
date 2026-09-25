@@ -32,6 +32,19 @@ export default function Products() {
             helping you build better posture habits throughout the day.
           </p>
           <p style={{ fontWeight: "bold" }}>$49.99</p>
+              <button style={{
+  marginTop: "15px",
+  padding: "12px 20px",
+  fontSize: "16px",
+  backgroundColor: "#000",
+  color: "#fff",
+  border: "none",
+  borderRadius: "6px",
+  cursor: "pointer"
+}}>
+  Buy Now
+</button>
+
         </div>
 {/* PRODUCT 2 */}
 <div style={{
